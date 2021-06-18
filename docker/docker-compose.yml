@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+
+  #Front-end
+  web:
+    build: ./web
+    volumes:
+      - ./web/src:/usr/local/web
+    environment:
+      TZ: Asia/Tokyo
+    ports:
+      - 8080:3000

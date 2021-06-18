@@ -1,0 +1,6 @@
+https://qiita.com/yoh_zzzz/items/9e2611b7a994427474f6
+
+
+# cd /usr/local
+# yarn global add create-nuxt-app
+# npx create-nuxt-app web
