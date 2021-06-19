@@ -12,10 +12,10 @@
                         name="test"
                         label="何か入力してください"
                         id="id"
-                        v-model="text"
+                        v-model="form.text"
                     >
                         <template #append-outer>
-                            <v-btn block color="primary" dark @click="reset">reset</v-btn>
+                            <v-btn block color="primary" dark @click="resetForm">reset</v-btn>
                         </template>
                     </v-text-field>
                 </v-col>
@@ -30,24 +30,26 @@
 </template>
 
 <script lang="ts">
-    import { Component, Vue } from 'vue-property-decorator';
+import { defineComponent, reactive, computed } from "@vue/composition-api";
 
-    @Component
-    export default class TestPage extends Vue {
-        text: string;
-        color: string;
-        constructor() {
-            super();
-            this.text = "";
-        }
-
-        get display() {
-            return this.text ? this.text + "\nこれはcomputed." : "入力なし";
-        }
-        reset() {
-            this.text = "";
-        }
-    }
+export default defineComponent({
+  setup() {
+    const form = reactive({
+      text: "",
+    });
+    const resetForm = () => {
+      form.text = "";
+    };
+    const display = computed(() => {
+        return form.text ? form.text + "computed_test" : "記載なし"
+    })
+    return {
+        form,
+        resetForm,
+        display
+    };
+  },
+});
 </script>
 
 <style scoped>

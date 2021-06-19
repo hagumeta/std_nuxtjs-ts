@@ -1,0 +1,9 @@
+〇composition APIについて
+data, computedなどの壁が撤廃された
+>> 機能ごとにdataとmethodsを纏められるメリット有
+https://vuejsdevelopers.com/2020/02/17/vue-composition-api-when-to-use/
+https://composition-api.nuxtjs.org/getting-started/introduction
+
+
+〇Nuxtに突っ込むならPluginが必要
+https://minerva.mamansoft.net/Notes/Nuxt%2BTypeScript%2BComposition+API%2BVuetify%E3%81%A7IE11%E5%AF%BE%E5%BF%9C%E3%81%AE%E3%82%88%E3%81%8F%E3%81%82%E3%82%8BCMS%E3%82%92%E4%BD%9C%E3%82%8B
