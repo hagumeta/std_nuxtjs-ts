@@ -1,0 +1,12 @@
+〇vue-class-componentパッケージ入ってる (Vue CLIにデフォルト搭載らしい)
+>> ClassベースでScriptを書けるので，Typescriptとのシナジー大！
+https://class-component.vuejs.org/
+
+https://jp.vuejs.org/v2/guide/typescript.html
+
+
+
+
+
+classベースの書き方
+https://qiita.com/simochee/items/e5b77af4aa36bd0f32e5
