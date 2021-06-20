@@ -1,6 +1,10 @@
 import colors from 'vuetify/es5/util/colors'
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 
 export default {
+  mode: 'universal',
+  //modern: true,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - web',
@@ -8,6 +12,11 @@ export default {
     htmlAttrs: {
       lang: 'en',
     },
+    script: [
+      {
+        src: 'https://polyfill.io/v3/polyfill.min.js?features=Document%2CNumber.EPSILON'
+      }
+    ],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -63,7 +72,31 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    transpile: ['vuetify', '@nuxtjs/axios'],
+    postcss: {
+      preset: {
+        autoprefixer: { grid: 'autoplace' }
+      }
+    },
+    babel: {
+      presets: [
+        '@nuxt/babel-preset-app',
+        '@babel/preset-env',
+        {
+          corejs: { version: '3' },
+          targets: { "ie": 11 },
+          useBuiltIns: "entry",
+          corejs: 3
+        },
+      ]
+    }
+/*    babel: {
+//      babelrc: true,
+      configFile: './.babelrc.json'
+    },
+    */
+  },
   server: {
         port: 3000, // デフォルト: 3000
         host: '0.0.0.0', // デフォルト: localhost
