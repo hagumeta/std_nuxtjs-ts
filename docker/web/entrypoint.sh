@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yarn
+yarn install --check-files
 
 yarn build
 yarn start 

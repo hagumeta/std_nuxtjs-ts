@@ -1,9 +1,7 @@
 import colors from 'vuetify/es5/util/colors'
-import "core-js/stable";
 import "regenerator-runtime/runtime";
 
 export default {
-  mode: 'universal',
   //modern: true,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -14,8 +12,9 @@ export default {
     },
     script: [
       {
-        src: 'https://polyfill.io/v3/polyfill.min.js?features=Document%2CNumber.EPSILON'
-      }
+        src: 'https://polyfill.io/v3/polyfill.min.js?features=Document%2CNumber.EPSILON%2CElement',
+        body: true
+      },
     ],
     meta: [
       { charset: 'utf-8' },
@@ -30,15 +29,14 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
-
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/vuetify
+    '@nuxt/typescript-build',
     '@nuxtjs/vuetify',
     '@nuxtjs/composition-api/module'
   ],
@@ -54,7 +52,8 @@ export default {
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
+    treeShake: true,
+    //customVariables: ['~/assets/variables.scss'],
     theme: {
       dark: true,
       themes: {
@@ -73,29 +72,23 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    transpile: ['vuetify', '@nuxtjs/axios'],
-    postcss: {
-      preset: {
-        autoprefixer: { grid: 'autoplace' }
-      }
-    },
+    transpile: ['vuetify'],
     babel: {
-      presets: [
-        '@nuxt/babel-preset-app',
-        '@babel/preset-env',
-        {
-          corejs: { version: '3' },
-          targets: { "ie": 11 },
-          useBuiltIns: "entry",
-          corejs: 3
-        },
-      ]
+      presets({ envName }) {
+        const envTargets = {
+          client: { browsers: ["last 2 versions"], ie: 11 },
+          server: { node: "current" },
+        }
+        return [
+          [
+            "@nuxt/babel-preset-app",
+            {
+              targets: envTargets[envName],
+            }
+          ]
+        ]
+      }
     }
-/*    babel: {
-//      babelrc: true,
-      configFile: './.babelrc.json'
-    },
-    */
   },
   server: {
         port: 3000, // デフォルト: 3000

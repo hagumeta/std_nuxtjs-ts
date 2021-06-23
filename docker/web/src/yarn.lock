@@ -790,7 +790,7 @@
     "@babel/helper-create-regexp-features-plugin" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/preset-env@^7.14.1", "@babel/preset-env@^7.14.5":
+"@babel/preset-env@^7.14.1":
   version "7.14.5"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.14.5.tgz#c0c84e763661fd0e74292c3d511cb33b0c668997"
   integrity sha512-ci6TsS0bjrdPpWGnQ+m4f+JSSzDKlckqKIJJt9UZ/+g7Zz9k0N8lYU8IeLg/01o2h8LyNZDMLGgRLDTxpudLsA==
@@ -968,7 +968,7 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@nuxt/babel-preset-app@2.15.7", "@nuxt/babel-preset-app@^2.15.7":
+"@nuxt/babel-preset-app@2.15.7":
   version "2.15.7"
   resolved "https://registry.yarnpkg.com/@nuxt/babel-preset-app/-/babel-preset-app-2.15.7.tgz#5f51b2f5f4aa604cc80d2a5698b97dd34e19d63b"
   integrity sha512-iSdnacldHhIinWpzVpX4QfEFgNqn3VQAAB7y6iQ0JELUgfv7sPv3j3Klih+IStru4iCbUKOaSCdQ+A6mbQ0vNg==
@@ -1390,7 +1390,7 @@
   dependencies:
     http-proxy-middleware "^1.0.6"
 
-"@nuxtjs/vuetify@^1.11.3":
+"@nuxtjs/vuetify@^1.10":
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/vuetify/-/vuetify-1.12.1.tgz#87dd1e1517b0120c660f4a43a22627c9fe124189"
   integrity sha512-oNwNhR6LY7l9ETsNyPkmCxgzbOYuAf27m+6E9mjQzHSu8PPI0vJ3xnGLgo87XnTcnWr9nYxqjwRN8xqMuuyoxQ==
@@ -2112,11 +2112,6 @@ acorn@^8.0.4:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.4.0.tgz#af53266e698d7cffa416714b503066a82221be60"
   integrity sha512-ULr0LDaEqQrMFGyQ3bhJkLsbtrQ8QibAseGZeaSUiT/6zb9IvIkomWHJIvgvwad+hinRAgsI51JcWk2yvwyL+w==
 
-add@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/add/-/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
-  integrity sha1-JI8Kn25aUo7yKV2+7DBTITCuIjU=
-
 aggregate-error@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/aggregate-error/-/aggregate-error-3.1.0.tgz#92670ff50f5359bdb7a3e0d40d0ec30c5737687a"
@@ -2609,6 +2604,13 @@ browserify-zlib@^0.2.0:
   integrity sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   dependencies:
     pako "~1.0.5"
+
+browserlist@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/browserlist/-/browserlist-1.0.1.tgz#8c52c4fd5ba49c7464b9e0f85d519598b5833ed9"
+  integrity sha512-nYq9jiWv+qXcgrJxQzivfEc7Wo2GvAKkeRViE5L3cUJpq4SZO6NZR710I/8T+OjE5BPECbzpm8rpUkwslE3nTg==
+  dependencies:
+    chalk "^2.4.1"
 
 browserslist@*, browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.16.6, browserslist@^4.6.4:
   version "4.16.6"
@@ -3153,11 +3155,6 @@ core-js@^2.6.5:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
-
-core-js@^3.9.1:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.14.0.tgz#62322b98c71cc2018b027971a69419e2425c2a6c"
-  integrity sha512-3s+ed8er9ahK+zJpp9ZtuVcDoFzHNiZsPbNAAE4KXgrRHbjSqqNN6xGSXq6bq7TZIbKj4NLrLb6bJ5i+vSVjHA==
 
 core-util-is@~1.0.0:
   version "1.0.2"
@@ -4456,9 +4453,9 @@ for-in@^1.0.2:
   integrity sha1-gQaNKVqBQuwKxybG4iAMMPttXoA=
 
 fork-ts-checker-webpack-plugin@^6.1.1:
-  version "6.2.10"
-  resolved "https://registry.yarnpkg.com/fork-ts-checker-webpack-plugin/-/fork-ts-checker-webpack-plugin-6.2.10.tgz#800ab1fa523c76011a3413bc4e7815e45b63e826"
-  integrity sha512-HveFCHWSH2WlYU1tU3PkrupvW8lNFMTfH3Jk0TfC2mtktE9ibHGcifhCsCFvj+kqlDfNIlwmNLiNqR9jnSA7OQ==
+  version "6.2.12"
+  resolved "https://registry.yarnpkg.com/fork-ts-checker-webpack-plugin/-/fork-ts-checker-webpack-plugin-6.2.12.tgz#b715297e39a77f31242d01a135a88d18c10d82ea"
+  integrity sha512-BzXGIfM47q1WFwXsNLl22dQVMFwSBgldL07lvqRJFxgrhT76QQ3nri5PX01Rxfa2RYvv/hqACULO8K5gT8fFuA==
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@types/json-schema" "^7.0.5"
@@ -9104,10 +9101,15 @@ vuetify-loader@^1.7.2:
     file-loader "^6.2.0"
     loader-utils "^2.0.0"
 
+vuetify@2.3.23:
+  version "2.3.23"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.3.23.tgz#1abd520c11e504bcae9a7299124727d83afef643"
+  integrity sha512-JZc9mFYfxacsXTEM4zCwU6PW1inMEYyHjZdkWkGnPlW1OQwmme4FXMIISB3nPI7BE+wcEDtGfBGBtSqFEJkHSw==
+
 vuetify@^2.5.3:
-  version "2.5.4"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.5.4.tgz#037cc8d430b61188ab15b9a8cc1ee67e620fa6e7"
-  integrity sha512-0EIXSCuy9LGXHgWbGiOdUUbGI6feodWoB3s+0Kr7rIppQWsq54tjPaQ1NobjAuDYKG7xsqkr+j0rnJUhc+GIag==
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.5.5.tgz#66d4058209e1d70e9c742d37384f3ae63add7b04"
+  integrity sha512-WsW+WaueqjgCvx0rB3m/pd8MZiLJKBWGwLxMMGhoA7i1OBWCzNwAAVOjoaW1Fcz0Sbn5qHOUOYnz4Vqlu43AbA==
 
 vuex@^3.6.2:
   version "3.6.2"

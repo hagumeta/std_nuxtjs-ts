@@ -1,6 +1,0 @@
-{
-    sourceType: 'unambiguous',
-    presets: ['@nuxt/babel-preset-app'],
-    plugins: ['@babel/plugin-proposal-object-rest-spread'],
-    targets: { ie: 11 }
-}
