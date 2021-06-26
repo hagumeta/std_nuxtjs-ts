@@ -19,7 +19,9 @@ RUN apt-get update \
                                 xml \
     && mv /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled \
     && pecl install stats-2.0.3 \
-    && docker-php-ext-enable stats
+    && docker-php-ext-enable stats \
+    && pecl install xdebug \
+    && docker-php-ext-enable xdebug
 
 #composer install
 RUN curl -sS https://getcomposer.org/installer \
@@ -29,6 +31,8 @@ RUN curl -sS https://getcomposer.org/installer \
 #set ENV
 ENV TZ='Asia/Tokyo'
 
+#set supservisor
+RUN mkdir -p /var/log/supervisor
 
 #set entrypoint
 EXPOSE 80
