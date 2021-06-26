@@ -11,3 +11,27 @@ services:
       TZ: Asia/Tokyo
     ports:
       - 8080:3000
+
+  #Back-end
+  app:
+    build: ./app
+    volumes:
+      - ./app/src:/var/www/html
+      - ./app/apache/conf:/etc/apache2/sites-enabled
+      - ./app/supervisor/logs:/var/log/supervisor
+    environment:
+      TZ: Asia/Tokyo
+    links:
+      - db
+    ports:
+      - 8888:3000
+
+  #database
+  db:
+    image: mariadb:10.5
+    env_file:
+      - ./db/.env
+    volumes:
+      - ./db/data:/var/lib/mysql
+    ports:
+      - 3306:3306

@@ -1,0 +1,8 @@
+https://readouble.com/laravel/7.x/ja/installation.html
+
+
+# docekr-compose exec app -d
+## cd /var/www
+## composer create-project --prefer-dist laravel/laravel proj
+## mv proj/* html/
+## exit
