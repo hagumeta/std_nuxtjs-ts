@@ -14,3 +14,183 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.144.4. Set the 'ServerName' directive globally to suppress this message
 [Sun Jun 27 01:14:34.112134 2021] [mpm_prefork:notice] [pid 54] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
 [Sun Jun 27 01:14:34.112173 2021] [core:notice] [pid 54] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.160.4. Set the 'ServerName' directive globally to suppress this message
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.160.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jun 27 01:32:34.766176 2021] [mpm_prefork:notice] [pid 19] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Sun Jun 27 01:32:34.766222 2021] [core:notice] [pid 19] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Jun 27 01:44:54.770722 2021] [php7:error] [pid 30] [client 172.18.80.1:60598] script '/var/www/html/public' not found or unable to stat
+[Sun Jun 27 01:44:54.899515 2021] [php7:error] [pid 30] [client 172.18.80.1:60598] script '/var/www/html/public' not found or unable to stat, referer: http://localhost:8888/
+[Sun Jun 27 01:44:56.237704 2021] [php7:error] [pid 30] [client 172.18.80.1:60598] script '/var/www/html/public' not found or unable to stat
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.160.4. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.160.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jun 27 02:29:04.298065 2021] [mpm_prefork:notice] [pid 55] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Sun Jun 27 02:29:04.298100 2021] [core:notice] [pid 55] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.160.4. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.160.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jun 27 03:13:24.097937 2021] [mpm_prefork:notice] [pid 55] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Sun Jun 27 03:13:24.097978 2021] [core:notice] [pid 55] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Jun 27 03:15:24.121937 2021] [php7:notice] [pid 66] [client 172.18.80.1:56492] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:15:24.194438 2021] [php7:notice] [pid 66] [client 172.18.80.1:56492] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:15:24.292356 2021] [php7:notice] [pid 66] [client 172.18.80.1:56492] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:15:51.606278 2021] [php7:notice] [pid 67] [client 172.18.80.1:56493] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:15:51.675106 2021] [php7:notice] [pid 67] [client 172.18.80.1:56493] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:15:51.684827 2021] [php7:notice] [pid 67] [client 172.18.80.1:56493] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:15:57.071436 2021] [php7:notice] [pid 68] [client 172.18.80.1:54773] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:15:57.154338 2021] [php7:notice] [pid 68] [client 172.18.80.1:54773] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:15:57.165559 2021] [php7:notice] [pid 68] [client 172.18.80.1:54773] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:15:58.466711 2021] [php7:notice] [pid 68] [client 172.18.80.1:54773] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:15:58.538440 2021] [php7:notice] [pid 68] [client 172.18.80.1:54773] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:15:58.547675 2021] [php7:notice] [pid 68] [client 172.18.80.1:54773] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:15:59.314345 2021] [php7:notice] [pid 68] [client 172.18.80.1:54773] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:15:59.374815 2021] [php7:notice] [pid 68] [client 172.18.80.1:54773] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:15:59.383770 2021] [php7:notice] [pid 68] [client 172.18.80.1:54773] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:16:02.984035 2021] [php7:notice] [pid 68] [client 172.18.80.1:54773] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:16:03.056297 2021] [php7:notice] [pid 68] [client 172.18.80.1:54773] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:16:03.067433 2021] [php7:notice] [pid 68] [client 172.18.80.1:54773] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9001 (through xdebug.client_host/xdebug.client_port) :-(
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.192.4. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.192.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jun 27 03:19:27.457894 2021] [mpm_prefork:notice] [pid 54] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Sun Jun 27 03:19:27.457932 2021] [core:notice] [pid 54] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Jun 27 03:22:04.470699 2021] [php7:notice] [pid 65] [client 172.18.80.1:51101] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:22:04.542777 2021] [php7:notice] [pid 65] [client 172.18.80.1:51101] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:22:04.551504 2021] [php7:notice] [pid 65] [client 172.18.80.1:51101] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.208.4. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.208.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jun 27 03:24:19.120164 2021] [mpm_prefork:notice] [pid 55] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Sun Jun 27 03:24:19.120204 2021] [core:notice] [pid 55] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Jun 27 03:25:10.793159 2021] [php7:notice] [pid 66] [client 172.18.80.1:62582] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:10.846126 2021] [php7:notice] [pid 66] [client 172.18.80.1:62582] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:10.846208 2021] [php7:notice] [pid 66] [client 172.18.80.1:62582] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:11.850159 2021] [php7:notice] [pid 66] [client 172.18.80.1:62582] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:11.912894 2021] [php7:notice] [pid 66] [client 172.18.80.1:62582] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:11.912974 2021] [php7:notice] [pid 66] [client 172.18.80.1:62582] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:12.560240 2021] [php7:notice] [pid 66] [client 172.18.80.1:62582] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:12.620646 2021] [php7:notice] [pid 66] [client 172.18.80.1:62582] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:12.620793 2021] [php7:notice] [pid 66] [client 172.18.80.1:62582] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:13.219908 2021] [php7:notice] [pid 66] [client 172.18.80.1:62582] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:13.272122 2021] [php7:notice] [pid 66] [client 172.18.80.1:62582] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:13.272201 2021] [php7:notice] [pid 66] [client 172.18.80.1:62582] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:52.385264 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:52.448189 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:52.448269 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:53.840534 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:53.907526 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:53.907608 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:54.559873 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:54.627453 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:54.627531 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:54.937149 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:54.995892 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:54.995980 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:55.244346 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:55.293113 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:55.293194 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:55.544231 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:55.593255 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:55.593336 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:55.874074 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:55.930042 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:55.930139 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:56.135215 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:56.183863 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:56.183941 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:56.381996 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:56.429621 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:56.429702 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:56.674437 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:56.722203 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:56.722283 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:56.849205 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:56.900330 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:56.900415 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:57.037436 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:57.086784 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:57.086876 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:57.278499 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:57.326386 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:57.326463 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:57.486959 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:57.536353 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:57.536434 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:57.731635 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:57.783493 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:57.783578 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:57.943130 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:57.992306 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:57.992389 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:58.186561 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:58.234182 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:58.234262 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:58.404458 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:58.458308 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:58.458398 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:58.604013 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:58.656307 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:58.656389 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:58.872234 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:58.922673 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:58.922755 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:59.037073 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:59.085975 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:59.086058 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:59.271902 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:59.321952 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:25:59.322031 2021] [php7:notice] [pid 67] [client 172.18.80.1:62583] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:26:23.052052 2021] [php7:notice] [pid 69] [client 172.18.80.1:57623] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:26:23.113135 2021] [php7:notice] [pid 69] [client 172.18.80.1:57623] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:26:23.113215 2021] [php7:notice] [pid 69] [client 172.18.80.1:57623] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.224.4. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.224.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jun 27 03:28:27.140475 2021] [mpm_prefork:notice] [pid 54] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Sun Jun 27 03:28:27.140514 2021] [core:notice] [pid 54] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Jun 27 03:30:00.766985 2021] [php7:notice] [pid 65] [client 172.18.80.1:49546] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:30:00.847726 2021] [php7:notice] [pid 65] [client 172.18.80.1:49546] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:30:00.847805 2021] [php7:notice] [pid 65] [client 172.18.80.1:49546] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:30:01.939810 2021] [php7:notice] [pid 65] [client 172.18.80.1:49546] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:30:02.011491 2021] [php7:notice] [pid 65] [client 172.18.80.1:49546] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:30:02.011577 2021] [php7:notice] [pid 65] [client 172.18.80.1:49546] Xdebug: [Step Debug] Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port) :-(
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.240.4. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.240.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jun 27 03:32:42.041025 2021] [mpm_prefork:notice] [pid 54] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Sun Jun 27 03:32:42.041065 2021] [core:notice] [pid 54] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Jun 27 03:35:54.754899 2021] [php7:notice] [pid 65] [client 172.18.80.1:53748] Xdebug: [Log Files] File '/tmp/xdebug.log' could not be opened.
+[Sun Jun 27 03:35:54.755960 2021] [php7:notice] [pid 65] [client 172.18.80.1:53748] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.80.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:35:54.847760 2021] [php7:notice] [pid 65] [client 172.18.80.1:53748] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.80.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:35:54.848441 2021] [php7:notice] [pid 65] [client 172.18.80.1:53748] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.80.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:35:57.700808 2021] [php7:notice] [pid 65] [client 172.18.80.1:53748] Xdebug: [Log Files] File '/tmp/xdebug.log' could not be opened.
+[Sun Jun 27 03:35:57.702296 2021] [php7:notice] [pid 65] [client 172.18.80.1:53748] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.80.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:35:57.766621 2021] [php7:notice] [pid 65] [client 172.18.80.1:53748] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.80.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[Sun Jun 27 03:35:57.767081 2021] [php7:notice] [pid 65] [client 172.18.80.1:53748] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 172.18.80.1:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jun 27 03:41:54.379693 2021] [mpm_prefork:notice] [pid 54] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Sun Jun 27 03:41:54.379730 2021] [core:notice] [pid 54] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Jun 27 03:42:10.435847 2021] [php7:notice] [pid 65] [client 172.18.80.1:58365] Xdebug: [Log Files] File '/tmp/xdebug.log' could not be opened.
+[Sun Jun 27 03:48:14.400712 2021] [php7:notice] [pid 68] [client 172.18.80.1:58617] Xdebug: [Log Files] File '/tmp/xdebug.log' could not be opened.
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.4. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jun 27 04:15:40.732124 2021] [mpm_prefork:notice] [pid 53] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Sun Jun 27 04:15:40.732174 2021] [core:notice] [pid 53] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.4. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.23.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jun 27 04:20:54.232681 2021] [mpm_prefork:notice] [pid 53] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Sun Jun 27 04:20:54.232721 2021] [core:notice] [pid 53] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.24.0.4. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.24.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jun 27 04:23:29.310779 2021] [mpm_prefork:notice] [pid 54] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Sun Jun 27 04:23:29.310817 2021] [core:notice] [pid 54] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.4. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jun 27 04:31:23.263943 2021] [mpm_prefork:notice] [pid 54] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Sun Jun 27 04:31:23.263973 2021] [core:notice] [pid 54] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.4. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.26.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jun 27 04:36:07.013244 2021] [mpm_prefork:notice] [pid 53] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Sun Jun 27 04:36:07.013282 2021] [core:notice] [pid 53] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.4. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jun 27 04:36:36.672509 2021] [mpm_prefork:notice] [pid 55] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Sun Jun 27 04:36:36.672551 2021] [core:notice] [pid 55] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Jun 27 04:39:30.603296 2021] [php7:notice] [pid 66] [client 172.18.80.1:61488] Xdebug: [Log Files] File '/tmp/xdebug.log' could not be opened.

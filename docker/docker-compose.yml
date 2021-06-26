@@ -19,12 +19,14 @@ services:
       - ./app/src:/var/www/html
       - ./app/apache/conf:/etc/apache2/sites-enabled
       - ./app/supervisor/logs:/var/log/supervisor
-      - ./app/php.ini:/usr/local/etc/php/php.ini
+      - ./app/php/php.ini:/usr/local/etc/php/php.ini
       - ./app/supervisor/supervisord.conf:/etc/supervisor/conf.d/supervisord.conf
     environment:
       TZ: Asia/Tokyo
     links:
       - db
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     privileged: true
     ports:
       - 8888:80

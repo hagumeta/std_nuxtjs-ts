@@ -48,3 +48,101 @@
 2021-06-27 01:14:33,052 INFO supervisord started with pid 51
 2021-06-27 01:14:34,054 INFO spawned: '"apache"' with pid 54
 2021-06-27 01:14:35,113 INFO success: "apache" entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-27 01:32:33,715 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2021-06-27 01:32:33,715 INFO Set uid to user 0 succeeded
+2021-06-27 01:32:33,722 INFO RPC interface 'supervisor' initialized
+2021-06-27 01:32:33,722 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-06-27 01:32:33,722 INFO supervisord started with pid 16
+2021-06-27 01:32:34,724 INFO spawned: '"apache"' with pid 19
+2021-06-27 01:32:35,767 INFO success: "apache" entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-27 02:29:02,939 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2021-06-27 02:29:02,939 INFO Set uid to user 0 succeeded
+2021-06-27 02:29:03,246 INFO RPC interface 'supervisor' initialized
+2021-06-27 02:29:03,246 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-06-27 02:29:03,246 INFO supervisord started with pid 52
+2021-06-27 02:29:04,248 INFO spawned: '"apache"' with pid 55
+2021-06-27 02:29:05,299 INFO success: "apache" entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-27 03:13:22,736 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2021-06-27 03:13:22,736 INFO Set uid to user 0 succeeded
+2021-06-27 03:13:23,042 INFO RPC interface 'supervisor' initialized
+2021-06-27 03:13:23,042 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-06-27 03:13:23,043 INFO supervisord started with pid 52
+2021-06-27 03:13:24,045 INFO spawned: '"apache"' with pid 55
+2021-06-27 03:13:25,099 INFO success: "apache" entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-27 03:19:26,357 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2021-06-27 03:19:26,357 INFO Set uid to user 0 succeeded
+2021-06-27 03:19:26,361 INFO RPC interface 'supervisor' initialized
+2021-06-27 03:19:26,361 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-06-27 03:19:26,361 INFO supervisord started with pid 51
+2021-06-27 03:19:27,362 INFO spawned: '"apache"' with pid 54
+2021-06-27 03:19:28,459 INFO success: "apache" entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-27 03:24:18,026 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2021-06-27 03:24:18,026 INFO Set uid to user 0 succeeded
+2021-06-27 03:24:18,030 INFO RPC interface 'supervisor' initialized
+2021-06-27 03:24:18,030 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-06-27 03:24:18,030 INFO supervisord started with pid 52
+2021-06-27 03:24:19,032 INFO spawned: '"apache"' with pid 55
+2021-06-27 03:24:20,121 INFO success: "apache" entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-27 03:28:26,080 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2021-06-27 03:28:26,080 INFO Set uid to user 0 succeeded
+2021-06-27 03:28:26,083 INFO RPC interface 'supervisor' initialized
+2021-06-27 03:28:26,083 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-06-27 03:28:26,083 INFO supervisord started with pid 51
+2021-06-27 03:28:27,085 INFO spawned: '"apache"' with pid 54
+2021-06-27 03:28:28,141 INFO success: "apache" entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-27 03:32:40,958 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2021-06-27 03:32:40,958 INFO Set uid to user 0 succeeded
+2021-06-27 03:32:40,962 INFO RPC interface 'supervisor' initialized
+2021-06-27 03:32:40,962 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-06-27 03:32:40,962 INFO supervisord started with pid 51
+2021-06-27 03:32:41,964 INFO spawned: '"apache"' with pid 54
+2021-06-27 03:32:43,042 INFO success: "apache" entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-27 03:41:53,329 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2021-06-27 03:41:53,329 INFO Set uid to user 0 succeeded
+2021-06-27 03:41:53,333 INFO RPC interface 'supervisor' initialized
+2021-06-27 03:41:53,333 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-06-27 03:41:53,333 INFO supervisord started with pid 51
+2021-06-27 03:41:54,335 INFO spawned: '"apache"' with pid 54
+2021-06-27 03:41:55,381 INFO success: "apache" entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-27 04:15:39,655 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2021-06-27 04:15:39,655 INFO Set uid to user 0 succeeded
+2021-06-27 04:15:39,662 INFO RPC interface 'supervisor' initialized
+2021-06-27 04:15:39,662 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-06-27 04:15:39,662 INFO supervisord started with pid 50
+2021-06-27 04:15:40,664 INFO spawned: '"apache"' with pid 53
+2021-06-27 04:15:41,733 INFO success: "apache" entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-27 04:20:53,154 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2021-06-27 04:20:53,154 INFO Set uid to user 0 succeeded
+2021-06-27 04:20:53,158 INFO RPC interface 'supervisor' initialized
+2021-06-27 04:20:53,158 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-06-27 04:20:53,158 INFO supervisord started with pid 50
+2021-06-27 04:20:54,160 INFO spawned: '"apache"' with pid 53
+2021-06-27 04:20:55,234 INFO success: "apache" entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-27 04:23:28,245 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2021-06-27 04:23:28,245 INFO Set uid to user 0 succeeded
+2021-06-27 04:23:28,252 INFO RPC interface 'supervisor' initialized
+2021-06-27 04:23:28,252 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-06-27 04:23:28,252 INFO supervisord started with pid 51
+2021-06-27 04:23:29,254 INFO spawned: '"apache"' with pid 54
+2021-06-27 04:23:30,312 INFO success: "apache" entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-27 04:31:22,215 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2021-06-27 04:31:22,215 INFO Set uid to user 0 succeeded
+2021-06-27 04:31:22,219 INFO RPC interface 'supervisor' initialized
+2021-06-27 04:31:22,219 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-06-27 04:31:22,219 INFO supervisord started with pid 51
+2021-06-27 04:31:23,221 INFO spawned: '"apache"' with pid 54
+2021-06-27 04:31:24,265 INFO success: "apache" entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-27 04:36:05,962 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2021-06-27 04:36:05,962 INFO Set uid to user 0 succeeded
+2021-06-27 04:36:05,966 INFO RPC interface 'supervisor' initialized
+2021-06-27 04:36:05,966 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-06-27 04:36:05,966 INFO supervisord started with pid 50
+2021-06-27 04:36:06,968 INFO spawned: '"apache"' with pid 53
+2021-06-27 04:36:08,014 INFO success: "apache" entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-27 04:36:35,622 INFO Included extra file "/etc/supervisor/conf.d/supervisord.conf" during parsing
+2021-06-27 04:36:35,622 INFO Set uid to user 0 succeeded
+2021-06-27 04:36:35,626 INFO RPC interface 'supervisor' initialized
+2021-06-27 04:36:35,626 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-06-27 04:36:35,626 INFO supervisord started with pid 52
+2021-06-27 04:36:36,628 INFO spawned: '"apache"' with pid 55
+2021-06-27 04:36:37,673 INFO success: "apache" entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
