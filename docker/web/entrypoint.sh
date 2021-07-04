@@ -2,8 +2,9 @@
 
 yarn install --check-files
 
-yarn build
-yarn start 
+#yarn build
+#yarn start 
+yarn dev
 #if [ ${PRODUCTION} ]; then
 #    yarn build
 #    yarn start

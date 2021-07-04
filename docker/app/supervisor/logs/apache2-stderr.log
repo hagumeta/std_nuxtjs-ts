@@ -194,3 +194,15 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Sun Jun 27 04:36:36.672509 2021] [mpm_prefork:notice] [pid 55] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
 [Sun Jun 27 04:36:36.672551 2021] [core:notice] [pid 55] AH00094: Command line: 'apache2 -D FOREGROUND'
 [Sun Jun 27 04:39:30.603296 2021] [php7:notice] [pid 66] [client 172.18.80.1:61488] Xdebug: [Log Files] File '/tmp/xdebug.log' could not be opened.
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.2. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.2. Set the 'ServerName' directive globally to suppress this message
+[Thu Jul 01 23:17:22.984166 2021] [mpm_prefork:notice] [pid 54] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Thu Jul 01 23:17:22.984279 2021] [core:notice] [pid 54] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.4. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.4. Set the 'ServerName' directive globally to suppress this message
+[Thu Jul 01 23:22:45.754043 2021] [mpm_prefork:notice] [pid 54] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Thu Jul 01 23:22:45.754086 2021] [core:notice] [pid 54] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
+[Thu Jul 01 23:37:10.961158 2021] [mpm_prefork:notice] [pid 54] AH00163: Apache/2.4.38 (Debian) PHP/7.4.20 configured -- resuming normal operations
+[Thu Jul 01 23:37:10.961209 2021] [core:notice] [pid 54] AH00094: Command line: 'apache2 -D FOREGROUND'

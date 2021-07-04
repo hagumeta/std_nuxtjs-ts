@@ -25,15 +25,17 @@
                     <div>{{ display }}</div>
                 </v-col>
             </v-row>
+            <div>{{hoge}}</div>
         </v-container>
     </v-card>
 </template>
 
 <script lang="ts">
-import { defineComponent, reactive, computed } from "@vue/composition-api";
+import { defineComponent, reactive, computed, ref } from "@nuxtjs/composition-api";
 
 export default defineComponent({
   setup() {
+    const hoge = ref(['hoge', 'figa']);
     const form = reactive({
       text: "",
     });
@@ -44,6 +46,7 @@ export default defineComponent({
         return form.text ? form.text + "computed_test" : "記載なし"
     })
     return {
+        hoge,
         form,
         resetForm,
         display
