@@ -1,8 +1,8 @@
 import colors from 'vuetify/es5/util/colors'
-import "regenerator-runtime/runtime";
+import 'regenerator-runtime/runtime'
 
 export default {
-  //modern: true,
+  // modern: true,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - web',
@@ -13,7 +13,7 @@ export default {
     script: [
       {
         src: 'https://polyfill.io/v3/polyfill.min.js?features=Document%2CNumber.EPSILON%2CElement',
-        body: true
+        body: true,
       },
     ],
     meta: [
@@ -38,7 +38,7 @@ export default {
     // https://go.nuxtjs.dev/vuetify
     '@nuxt/typescript-build',
     '@nuxtjs/vuetify',
-    '@nuxtjs/composition-api/module'
+    '@nuxtjs/composition-api/module',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -53,7 +53,7 @@ export default {
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     treeShake: true,
-    //customVariables: ['~/assets/variables.scss'],
+    // customVariables: ['~/assets/variables.scss'],
     theme: {
       dark: true,
       themes: {
@@ -81,22 +81,22 @@ export default {
     babel: {
       presets({ envName }) {
         const envTargets = {
-          client: { browsers: ["last 2 versions"], ie: 11 },
-          server: { node: "current" },
+          client: { browsers: ['last 2 versions'], ie: 11 },
+          server: { node: 'current' },
         }
         return [
           [
-            "@nuxt/babel-preset-app",
+            '@nuxt/babel-preset-app',
             {
               targets: envTargets[envName],
-            }
-          ]
+            },
+          ],
         ]
-      }
-    }
+      },
+    },
   },
   server: {
-        port: 3000, // デフォルト: 3000
-        host: '0.0.0.0', // デフォルト: localhost
-      },
+    port: 3000, // デフォルト: 3000
+    host: '0.0.0.0', // デフォルト: localhost
+  },
 }

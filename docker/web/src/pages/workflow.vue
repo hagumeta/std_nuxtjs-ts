@@ -6,13 +6,10 @@
 import { defineComponent } from '@vue/composition-api'
 import WorkFlow from '@/components/WorkFlow'
 
-
 export default defineComponent({
   components: {
-    WorkFlow
+    WorkFlow,
   },
-  setup() {
-    
-  },
+  setup() {},
 })
 </script>
