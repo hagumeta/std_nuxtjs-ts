@@ -31,7 +31,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, reactive, computed, ref } from "@nuxtjs/composition-api";
+import { defineComponent, reactive, computed, ref, useAsync } from "@nuxtjs/composition-api";
 
 export default defineComponent({
   setup() {
@@ -40,16 +40,29 @@ export default defineComponent({
       text: "",
     });
     const resetForm = () => {
-      form.text = "";
+        
+        let hoge = form.text;
+        let a = 20;
+        a += 21;
+        a += 10;
+        hoge += 'あほ';
+        form.text = "";
     };
     const display = computed(() => {
         return form.text ? form.text + "computed_test" : "記載なし"
+    })
+    const hoga = useAsync(() => {
+        let a = 20;
+        a += 21;
+        a += 10;
+        return 'a';
     })
     return {
         hoge,
         form,
         resetForm,
-        display
+        display,
+        hoga
     };
   },
 });
