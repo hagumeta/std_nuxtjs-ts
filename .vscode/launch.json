@@ -1,0 +1,38 @@
+{
+  // IntelliSense を使用して利用可能な属性を学べます。
+  // 既存の属性の説明をホバーして表示します。
+  // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node", // nodeを指定
+      "request": "attach", // 起動済みのシステムに繋げるのでattachを指定
+      "name": "NuxtDebug-SSR", // VSCode上で表示される名称
+      "port": 9229, // デバッグポートを指定
+      "address": "localhost", // デバッグ先のホストを指定
+      "localRoot": "${workspaceFolder}/docker/web/src", // ホスト側のプロジェクトルートを指定(専用の変数を使用)
+      "remoteRoot": "/usr/local/web", // コンテナ側のプロジェクトルートを指定
+      "protocol": "inspector",
+      "sourceMapPathOverrides": {
+        "webpack:///./~/*": "${workspaceRoot}/node_modules/*",
+        "webpack:///./*": "${workspaceRoot}/docker/web/src/*",
+      }
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "NuxtDebug-CSR",
+      "url": "http://192.168.0.80:18080",
+      "webRoot": "${workspaceFolder}/docker/web/src",
+      "runtimeArgs": [
+          "--remote-debugging-port=9222"
+      ]
+    }
+  ],
+  "compounds": [
+    {
+      "name": "NuxtDebug-FullStack",
+      "configurations": ["NuxtDebug-SSR", "NuxtDebug-CSR"]
+    }
+  ]
+}
