@@ -1,5 +1,6 @@
-import colors from 'vuetify/es5/util/colors'
-import 'regenerator-runtime/runtime'
+import colors from 'vuetify/es5/util/colors';
+import 'regenerator-runtime/runtime';
+
 
 export default {
   // modern: true,
@@ -49,7 +50,9 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
-
+  serverMiddleware: [
+    '~/server'
+  ],
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     treeShake: true,
@@ -74,7 +77,7 @@ export default {
   build: {
     extend(config, ctx) {
       if (ctx.isDev) {
-        config.devtool = 'inline-cheap-module-source-map'
+        config.devtool = 'inline-cheap-module-source-map';
       }
     },
     transpile: ['vuetify'],
@@ -83,7 +86,7 @@ export default {
         const envTargets = {
           client: { browsers: ['last 2 versions'], ie: 11 },
           server: { node: 'current' },
-        }
+        };
         return [
           [
             '@nuxt/babel-preset-app',
@@ -91,7 +94,7 @@ export default {
               targets: envTargets[envName],
             },
           ],
-        ]
+        ];
       },
     },
   },
@@ -99,4 +102,4 @@ export default {
     port: 3000, // デフォルト: 3000
     host: '0.0.0.0', // デフォルト: localhost
   },
-}
+};
